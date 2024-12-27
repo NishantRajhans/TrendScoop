@@ -18,7 +18,6 @@ app.use(
 );
 app.get("/", async (req, res) => {
   try {
-    const clientIp =req.headers["x-forwarded-for"] || req.connection.remoteAddress;
     const { trends, endTime ,selectedProxy} = await TweeterTrends();
     const trendData = new Trends({
       uniqueId: uuidv4(),

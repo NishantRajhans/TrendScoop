@@ -11,8 +11,9 @@ const proxyList = [
   "173.0.9.70:5653",
   "173.0.9.209:5792"
 ];
-const selectedProxy = proxyList[Math.floor(Math.random() * proxyList.length)];
 async function TweeterTrends() {
+  const index=Math.floor(Math.random()*10)
+   const selectedProxy = proxyList[index];
     const driver = await new Builder().forBrowser("chrome").build();
     try {
       await driver.get("https://twitter.com/login");
