@@ -61,4 +61,4 @@ npm start
 1. Before
   ![Before](./images/Screenshot%202024-12-27%20201237.png)
 2.After
-  ![After](./images/Screenshot 2024-12-27 200907.png)
+  ![After](./images/Screenshot%2024-12-27%200907.png)
